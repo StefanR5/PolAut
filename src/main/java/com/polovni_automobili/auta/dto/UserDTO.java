@@ -18,6 +18,8 @@ public class UserDTO {
     private String password;
     private String fullname;
     private Set<Role> role;
+    private String commit1;
+    private String commit2;
 
 
     public UserDTO(User user) {
